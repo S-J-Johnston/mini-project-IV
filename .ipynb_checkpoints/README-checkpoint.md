@@ -73,11 +73,15 @@ With feature reduction it was possible to achieve a max accuracy of 84% with K B
 
 In both cases the model performs well at classifying True Positives but has difficulty distinguishing True Negatives. This may be related to the class imbalance on declined applications.
 
-### Deployment and Demo
-An API was created via flask and deployed to the AWS EC2 sever. At the time of deployment it seemed to be working correctly. Please refer to the Instructions.ipynb notebook for deployment and testing.
+### Deployment
+Unfortuantely it was not possible to get the model deployed before the project deadline. In the coming days I will try to get this completed and update the report as required.
+
+## Demo
+TBD
 
 ## Challanges 
-1. Time constraints. 
+1. There were some time constraints that prevented me from getting the model deployed on time.
 
 ## Future Goals
 1. When carrying out the model development what I was attempting to do was run a GridSearchCV using both a range or feature reduction techniques and a range of classifiers with their respective ranges of hyperparameters. I was not able to get them to work within the same grid. Instead I picked the best performing feature reduction technique and then used those hyperparameters with a range of classifiers and their ranges of hyper parameters. In short it would have been nice to get that to run as a single block of code.
+2. Deployment... it was unfortunate I could not get it completed and will have to go back to it at a later point.
